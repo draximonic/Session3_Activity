@@ -1,0 +1,106 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-kerning: none;
+    text-align: justify;
+}
+
+h1 {
+    color: green;
+    background-color: blanchedalmond;
+    outline: 2px dotted blue;
+    width: auto;
+    height: 50px;
+    position: relative;
+    box-shadow: 15px 15px 10px darkolivegreen;
+    border-color: #000;
+    border-radius: 10%;
+    hyphens: auto;
+    display: flex;
+}
+
+h2 { 
+    color: darkslateblue;
+    opacity: 0.5;
+    cursor: pointer;
+    top: 20px;
+    bottom: auto;
+    left: auto;
+    inset: 2px;
+}
+
+h3 {
+    color: darkgoldenrod;
+    align-content: normal;
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+.type-rock, .type-edm, .type-hiphop {
+    padding-left: 40px;
+}
+
+#rock {
+    vertical-align: auto;
+}
+
+#edm {
+    text-decoration-line: line-through;
+}
+
+#hiphop {
+    text-shadow: 1px 1px #000;
+}
+
+article {
+    background-color: lightgray;
+    margin-bottom: auto;
+}
+
+p {
+    line-height: 2;
+    margin-right: auto;
+}
+
+q {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    bottom: auto;
+    quotes: inherit;
+}
+
+section > header, section > p, section > q {
+    text-indent: 16px;
+}
+
+/*
+    Added:
+        1. padding-left
+        2. vertical-align
+        3. text-decoration-line
+        4. text-shadow
+        5. outline
+        6. opacity
+        7. inset
+        8. width
+        9. height
+        10. position
+        11. cursor
+        12. box-shadow
+        13. top
+        14. bottom
+        15. left
+        16. align-content
+        17. border-color
+        18. border-radius
+        19. bottom
+        20. font-kerning
+        21. hyphens
+        22. margin-bottom
+        23. margin-right
+        24. display
+        25. quotes
+*/
+
